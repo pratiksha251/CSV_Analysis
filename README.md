@@ -7,10 +7,14 @@ analysis/forms.py, define a form to upload CSV files
 analysis/views.py, update your view to handle file uploads and save them to the database
 analysis/urls.py, ensure your URLs are defined
 Create templates for file upload and displaying results.
-Update your settings.py to include the analysis app and configure file upload settings
+Update your settings.py to include the analysis app and configure file upload settings.
+install all the libraries using command:
+      pip install django
+      pip install numpy
+      pip install seaborn etc.
 
 create a project using command:
-      django-admin startproject csv_analysis
+      django-admin startproject csv_project
       
 create an app using command:
       python manage.py startapp analysis
@@ -20,4 +24,4 @@ Apply Migrations :
       
 Run the Development Server:
       python manage.py runserver
-
+if there is any error while running server edit the settings.py file set the host as [*]
