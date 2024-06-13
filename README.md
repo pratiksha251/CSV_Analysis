@@ -1,5 +1,5 @@
 # CSV_Analysis
-python project using django analysis of file
+Python project using django analysis of file
 
 This Django-based web application allows users to upload CSV files and perform data analysis using pandas and numpy. Uploaded files are stored in a database, and basic data analysis such as displaying the first few rows, calculating summary statistics, and identifying missing values is performed. The results, including histograms generated using matplotlib and seaborn, are displayed on a user-friendly web interface. The application consists of a Django project with an analysis app, including models, views, forms, and templates. The setup requires configuring Django settings, URLs, and applying migrations. Users can easily upload CSV files and view detailed analysis results through a web browser.
 Display the analysis results and visualizations on the web interface.
