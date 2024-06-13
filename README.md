@@ -11,6 +11,8 @@ analysis/urls.py, ensure your URLs are defined
 Create templates for file upload and displaying results.
 Update your settings.py to include the analysis app and configure file upload settings.
 
+create a folder named CSVAnalysis
+then in command promt run this command
 install all the libraries using command:
       pip install django
       pip install numpy
