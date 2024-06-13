@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Analysis Results</title>
+</head>
+<body>
+    <h1>Data Analysis Results</h1>
+    <h2>First Few Rows</h2>
+    {{ head|safe }}
+
+    <h2>Summary Statistics</h2>
+    {{ summary_stats|safe }}
+
+    <h2>Missing Values</h2>
+    {{ missing_values|safe }}
+
+    <h2>Plots</h2>
+    {% for column, plot in plots.items %}
+        <h3>{{ column }}</h3>
+        <img src="data:image/png;base64,{{ plot }}" alt="{{ column }} plot">
+    {% endfor %}
+</body>
+</html>
