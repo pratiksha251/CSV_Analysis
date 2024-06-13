@@ -14,8 +14,10 @@ analysis/views.py, update your view to handle file uploads and save them to the 
 analysis/urls.py, ensure your URLs are defined
 Create templates for file upload and displaying results.
 Update your settings.py to include the analysis app and configure file upload settings
+
 Apply Migrations : 
       python manage.py migrate
+      
 Run the Development Server:
       python manage.py runserver
 
